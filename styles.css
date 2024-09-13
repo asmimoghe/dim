@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #3e2a1f;
+    background-color: #f7f4f1; /* Light beige background for contrast */
+}
+
+header {
+    background: #6f4e37; /* Darker brown for header background */
+    color: white;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 3px solid #8e735b; /* Line below the header */
+}
+
+nav {
+    background: #8e735b; /* Background color for the nav box */
+    border: 2px solid #6f4e37; /* Dark brown border for the nav box */
+    border-radius: 5px; /* Rounded corners for the nav box */
+    padding: 10px; /* Space inside the nav box */
+    margin: 0 auto; /* Center the nav box */
+    max-width: 960px; /* Set a max-width for better alignment */
+    text-align: center; /* Center the nav items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for a subtle 3D effect */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 3em 1em;
+    background-color: #8e735b; /* Warm brown color for hero section */
+}
+
+.btn {
+    background: #6f4e37; /* Matching button color */
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.specialties {
+    padding: 2em;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 1em;
+    border: 1px solid #d5b9a3; /* Light brown border for card */
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    background-color: #f5f0e6; /* Very light brown background for cards */
+    width: 200px; /* Fixed width for uniformity */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+.card img {
+    width: 100%; /* Makes image fill the width of the card */
+    height: 150px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+footer {
+    background: #6f4e37; /* Footer background matching header */
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.menu-section {
+    padding: 2em;
+    text-align: center;
+}
+
+.menu-section h2 {
+    margin-top: 0;
+}
+
+.contact-info {
+    padding: 2em;
+    text-align: center;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+}
+
+.contact-details {
+    margin-bottom: 2em;
+}
+
+.contact-details h3 {
+    margin: 0.5em 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 1em;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 1em;
+    background: #6f4e37; /* Button color */
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #8e735b; /* Slightly lighter on hover */
+}
